@@ -1,0 +1,204 @@
+.list-BSC {
+    max-height: 300px !important;
+    overflow: auto;
+}
+
+.margin-top-5 {
+    margin-top: 5px !important;
+}
+
+.min-width-90 {
+    min-width: 90px !important;
+}
+
+.min-width-100 {
+    min-width: 100px !important;
+}
+
+.min-width-130 {
+    min-width: 130px !important;
+}
+
+.padding-top-7 {
+    padding-top:7px !important;
+}
+
+.padding-right-10 {
+    padding-right: 10px !important;
+}
+
+.padding-left-5 {
+    padding-left: 5px !important;
+}
+
+.cls_chuaxuly {
+    background-color: orange !important;
+}
+
+.cls_daxuly {
+    background-color: #92d050 !important;
+}
+
+.background-gold{
+    background-color: gold;
+}
+
+tr > td > input.form-control, tr > td > select.form-control {
+    padding: 1px 5px !important;
+    font-size: 12px !important;
+}
+
+tr > td > a.btn {
+    margin-bottom: 0px !important;
+    margin-right: 0px !important;
+}
+
+.table > tbody > tr > td {
+    padding: 2px !important;
+}
+
+tr > td > input.form-control {
+    text-align: center !important;
+}
+
+.login-center{
+    margin-top: 10% !important;
+}
+
+.error-red{
+    color: red !important;
+}
+
+.red-color{
+    color: red !important;
+}
+
+.green-color{
+    color: green !important;
+}
+
+.orange-color{
+    color: orange !important;
+}
+
+.wrap-text-200{
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ads-header{
+    width: 40%;
+    background-color: #e08a20;
+    height: 57px;
+    float: left;
+}
+
+.ads-left-menu{
+    /*background-color: #e08a20;*/
+    /*height: 150px;*/
+}
+
+.cls-copy{
+    cursor: pointer !important;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the left */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: gray; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+    font-weight: bold;
+}
+
+#myBtn:hover {
+    color: red; /* Add a dark-grey background on hover */
+}
+
+.ads-left-menu > a > img, .ads-header > a > img{
+    width: 100% !important;
+    height: 100%;
+}
+
+.margin-right-20{
+    margin-right: 20px !important;
+}
+
+.tree {
+    min-height:20px;
+    padding:19px;
+    margin-bottom:20px;
+    background-color:#fbfbfb;
+    /*border:1px solid #999;*/
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    /*border-radius:4px;*/
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05)
+}
+.tree li {
+    list-style-type:none;
+    margin:0;
+    padding:10px 5px 0 5px;
+    position:relative
+}
+.tree li::before, .tree li::after {
+    content:'';
+    left:-20px;
+    position:absolute;
+    right:auto
+}
+.tree li::before {
+    border-left:1px solid #999;
+    bottom:50px;
+    height:100%;
+    top:0;
+    width:1px
+}
+.tree li::after {
+    border-top:1px solid #999;
+    height:20px;
+    top:25px;
+    width:25px
+}
+.tree li span {
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border:1px solid #999;
+    border-radius:5px;
+    display:inline-block;
+    padding:3px 8px;
+    text-decoration:none
+}
+.tree li > span {
+    cursor:pointer
+}
+.tree>ul>li::before, .tree>ul>li::after {
+    border:0
+}
+.tree li:last-child::before {
+    height:30px
+}
+.tree li >span:hover {
+    background:#eee;
+    border:1px solid #94a0b4;
+    color:#000
+}
+
+.no-border{
+    border: 0px solid #999;
+}
+
+.kv-fileinput-caption {
+    height: 34px !important;
+}
